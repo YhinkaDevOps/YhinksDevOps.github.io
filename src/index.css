@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap'); /*''Lato', sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap');/*Raleway*/
+
+@layer base {
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  li{
+    @apply px-2;
+    cursor: pointer;
+  }
+
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.content-div:hover {
+  background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)   
+    )!important;
+}
+
+input, textarea{
+  outline: none;
+}
+
+.Home-btn{
+  border: 1px solid white;
+}
+
+.Menu_links:hover{
+    border-bottom: 1px solid rgb(233, 88, 112);
+}
+
+.social_icon:hover{
+  opacity: 0.5;
+}
+
+.homebio-container{
+  position: relative;
+}
+
+.home-img{
+  width: 250px;
+  position: absolute;
+  right:0;
+  margin-right: 15%;
+margin-left: auto;
+}
+
+
+
+.home-img img{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name_span{
+  color: #db2777
+}
