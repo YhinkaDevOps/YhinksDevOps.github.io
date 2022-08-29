@@ -1,6 +1,6 @@
 import React from 'react'
-import realestate from "../image/realestate.jpg"
-import project1 from "../image/project1.jpg"
+import Realestate from "../image/realestate.jpg"
+import Project1 from "../image/project1.png"
 
 const Project = () => {
   return (
@@ -15,7 +15,7 @@ const Project = () => {
                 {/* container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 '>
                   <div 
-                    style={{backgroundImage: `url(${project1})`}}
+                    style={{backgroundImage: `url(${Project1})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
@@ -37,7 +37,7 @@ const Project = () => {
                   </div>
 
                     <div 
-                    style={{backgroundImage: `url(${realestate})`}}
+                    style={{backgroundImage: `url(${Realestate})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
@@ -59,7 +59,7 @@ const Project = () => {
                   </div>
 
                     <div 
-                    style={{backgroundImage: `url(${realestate})`}}
+                    style={{backgroundImage: `url(${Realestate})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
@@ -81,7 +81,7 @@ const Project = () => {
                   </div>
 
                        <div 
-                    style={{backgroundImage: `url(${realestate})`}}
+                    style={{backgroundImage: `url(${Realestate})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
@@ -103,7 +103,7 @@ const Project = () => {
                   </div>
 
                        <div 
-                    style={{backgroundImage: `url(${realestate})`}}
+                    style={{backgroundImage: `url(${Realestate})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
@@ -125,7 +125,7 @@ const Project = () => {
                   </div>
 
                        <div 
-                    style={{backgroundImage: `url(${realestate})`}}
+                    style={{backgroundImage: `url(${Realestate})`}}
                     className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                       <span className='text-2xl font-bold text-white tracking-wider'>
